@@ -3,7 +3,7 @@
   <FinanceSection />
   <section class="main-listings_container container">
     <FilterMenu />
-    <ResultsSection />
+    <ListingsSection />
   </section>
   <section class="filter-button-section">
     <button class="filter-button">
