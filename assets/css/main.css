@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "SFProRegular";
+  src: url("/assets/fonts/SF-Pro-Text-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.heading-3 {
+  font-family: "Overpass";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.heading-4 {
+  font-family: "Overpass", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.caption-text {
+  font-family: "SFProRegular", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.button-text {
+  font-family: "Overpass";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.paragraph-text {
+  font-family: "SFProRegular", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
