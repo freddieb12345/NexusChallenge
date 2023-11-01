@@ -55,7 +55,7 @@ const onSubmit = () => {
 @import "~/assets/scss/variables.scss";
 
 .value-card {
-  width: calc((100% - 30px) / 3);
+  width: 100%;
   height: 364px;
   flex-shrink: 0;
   border-radius: 16px;
@@ -85,12 +85,6 @@ const onSubmit = () => {
       flex-direction: column;
       width: 100%;
     }
-  }
-}
-
-@media (min-width: 642px) and (max-width: 1068px) {
-  .value-card {
-    width: calc((100% - 15px) / 2);
   }
 }
 

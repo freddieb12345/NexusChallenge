@@ -240,11 +240,17 @@ const remainingItems = dummyData.slice(4);
   position: relative;
   padding-right: 15px;
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   @media (max-width: 642px) {
     padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  @media (min-width: 642px) and (max-width: 1068px) {
+    grid-template-columns: repeat(2, 1fr);
   }
 
 }

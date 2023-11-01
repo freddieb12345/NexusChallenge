@@ -11,8 +11,8 @@
         alt="Filter Image"
         class="filter-image"
         src="/img/Filters.svg"
-        loading="lazy"
-      />
+        loading="lazy"      
+        />
       Filters
     </button>
   </section>
@@ -42,7 +42,10 @@
   }
 
   .filter-button {
-    padding: 11px 25px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 25px;
     color: white;
     background-color: $brand-primary;
     border-radius: 16px;
@@ -52,6 +55,12 @@
     &:active {
       color: black;
       border: 1px solid black;
+    }
+
+    .filter-image {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
     }
   }
 }

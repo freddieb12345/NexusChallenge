@@ -177,7 +177,7 @@ const props = withDefaults(
 
 .result-card {
   overflow: hidden;
-  width: calc((100% - 30px) / 3);
+  width: 100%;
   height: 364px;
   flex-shrink: 0;
   border-radius: 16px;
@@ -208,10 +208,6 @@ const props = withDefaults(
       opacity: 1;
       visibility: visible;
     }
-  }
-
-  @media (min-width: 642px) and (max-width: 1068px) {
-    width: calc((100% - 15px) / 2);
   }
 
   @media (max-width: 642px) {
